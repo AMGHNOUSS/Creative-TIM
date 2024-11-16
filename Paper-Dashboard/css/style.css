@@ -1,0 +1,271 @@
+/* START Variable */
+:root {
+    --main-color: #666158;
+    --second-colr: #EB5E28;
+    --third-color: #e7e7e7;
+    --forty-color: #9A9A9A;
+    --fifty-color: #68B3C8;
+    --sixty-color: #777;
+}
+
+/* END Variable */
+
+/* START main-heading*/
+
+
+.main-heading {
+    text-align: center;
+}
+
+.main-heading h2 {
+    margin-top: 70px;
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #333;
+    display: inline-block;
+}
+
+.main-heading h2::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background-color: var(--main-color);
+    left: -50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-heading h2::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background-color: var(--main-color);
+    right: -110px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-heading p {
+    color: var(--second-colr);
+    margin: 0px auto 100px;
+    line-height: 1.8;
+    width: 500px;
+    max-width: 100%;
+}
+
+/* RULE General */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* END RULE General */
+/* START Media */
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muli', "Helvetica", Arial, sans-serif;
+    margin: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page {
+    min-height: 100vh;
+    background-color: #e7e7e7;
+    
+}
+
+ul {
+    padding: 0px;
+    list-style: none;
+}
+
+/* Start Sidebar */
+
+.sidebar {
+    width: 260px;
+}
+
+.sidebar > h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.sidebar > h3::before {
+    content: "";
+    width: 210px;
+    height: 1px;
+    bottom: 0px;
+    position: absolute;
+    background-color: var(--main-color);
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.sidebar > h3::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: 4px solid white;
+    bottom: -9px;
+    position: absolute;
+    background-color: var(--main-color);
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.sidebar ul li a {
+    transition: 0.3s; 
+}
+
+.sidebar ul li a.active::before{
+    content: "";
+    position: absolute;
+    left: 91%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid var(--third-color);
+    transform: rotate(88deg);
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    color: var(--second-colr);
+}
+
+.sidebar ul li a span {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        width: 110px;
+        padding: 10px
+    }
+    .sidebar > h3 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .sidebar > h3::after, .sidebar > h3::before {
+        display: none;
+    }
+    .sidebar ul li a span {
+        display: none;
+    }
+}
+/* End Sidebar */
+
+
+
+/* Start Content Head */
+.content {
+    overflow: hidden;
+
+}
+
+.content .head {
+    position: relative;
+}
+
+.content .head::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 80px;
+    position: absolute;
+    background-color: var(--forty-color);
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.content .head .title p{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--sixty-color);
+}
+
+.content .head .icons {
+    flex-direction: row-reverse;
+}
+
+.content .head .icons .icon a:hover {
+    color: var(--fifty-color);
+}
+
+.content .head .icons .icon a i {
+    font-size: 17px;
+}
+
+.content .head .icons .icon a span {
+    font-size: 17px;
+}
+
+@media (max-width: 767px) {
+    .content .head .icons .icon a {
+        margin-right: 5px;
+    }
+    .content .head .icons .icon a span {
+        display: none;
+    }
+}
+
+/* End Content Head */
+
+
+
+/* Start Section User Profile */
+
+.user {
+    background-color: white;
+    border-radius: 6px;
+}
+.user .infomationUser {
+    text-align: center;
+
+}
+.user .infomationUser .card {
+    text-align: center;
+}
+
+.user .infomationUser .team {
+    text-align: center;
+}
+
+.user .profile {
+    text-align: center;
+}
+/* End section User Profile*/

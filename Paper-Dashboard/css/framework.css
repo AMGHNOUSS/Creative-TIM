@@ -1,0 +1,129 @@
+
+
+:root {
+    --main-color: #666158;
+    --second-colr: #EB5E28;
+    --third-color: #e7e7e7;
+    --forty-color: #9A9A9A;
+    --fifty-color: #68B3C8;
+}
+
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+
+/* End Box */
+
+/* Start Padding + Marging */
+
+.p-20 {
+    padding: 20px;
+}
+.p-15 {
+    padding: 15px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.p-10 {
+    padding: 10px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pr-25 {
+    padding-right: 25px;
+}
+.pl-25 {
+    padding-left: 25px;
+}
+.m-20 {
+    margin: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mt-0 {
+    margin-top: 0;
+}
+.mb-0 {
+    margin-bottom: 0;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+/* End Padding + Marging */
+
+/* Start Color */
+.c-666158 {
+    color: var(--main-color);
+}
+.c-9a {
+    color: var(--forty-color);
+}
+.bg-white {
+    background-color: white;
+}
+.bg-e7 {
+    background-color: #e7e7e7;
+}
+.p-relative {
+    position: relative;
+}
+/* End Color */
+
+/* Start Border Raduis*/
+.rad-6 {
+    border-radius: 6px;
+}
+/* End Border Raduis*/
+
+/* Start Font size*/
+
+.fs-14 {
+    font-size: 14px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+/* End Font size*/
+
+/* Start Heading Title */
+
+.txt-c{
+    text-align: center;
+}
+
+/* End Heading Title */
+
+/* Start Compenet */
+
+.w-full {
+    width: 100%;
+}
+
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* End Compenet */
