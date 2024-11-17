@@ -269,3 +269,50 @@ ul {
     text-align: center;
 }
 /* End section User Profile*/
+
+
+/* Start Section Table List */
+.DivTable1 {
+    width: 90%;
+    background-color: white;
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: #333;
+}
+
+.DivTable1 .titletable {
+    padding: 10px;
+}
+
+.DivTable1 .titletable h4 {
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.DivTable1 .titletable p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--forty-color);
+
+}
+.DivTable1 .content-table .table1 {
+    width: 100%;
+}
+.DivTable1 .content-table .table1 td  {
+    padding: 15px 8px; 
+}
+
+.DivTable1 .content-table .table1,
+.DivTable1 .content-table .table1 td {
+    border-collapse: collapse;
+    border: solid;
+    border-width: 1px 0;
+}
+
+.DivTable1 .content-table .table1 thead,
+.DivTable1 .content-table .table1 tbody tr:last-child {
+    border-top: none;
+}
+
+/* End Section Table List */
