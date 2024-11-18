@@ -278,6 +278,7 @@ ul {
     margin: 20px;
     border-radius: 6px;
     box-shadow: #333;
+    padding-bottom: 20px;
 }
 
 .DivTable1 .titletable {
@@ -298,6 +299,7 @@ ul {
 }
 .DivTable1 .content-table .table1 {
     width: 100%;
+    margin-bottom: 10px;
 }
 .DivTable1 .content-table .table1 td  {
     padding: 15px 8px; 
@@ -306,13 +308,53 @@ ul {
 .DivTable1 .content-table .table1,
 .DivTable1 .content-table .table1 td {
     border-collapse: collapse;
-    border: solid;
+    border: solid #CCC5B9;
     border-width: 1px 0;
+    border-top: none; 
 }
 
-.DivTable1 .content-table .table1 thead,
-.DivTable1 .content-table .table1 tbody tr:last-child {
-    border-top: none;
+.DivTable1 .content-table .table1 tbody > tr:nth-of-type(2n) {
+    background-color: #FFFCF5;
+}
+
+
+.DivTable2 {
+    width: 90%;
+    margin: 20px;
+    border-radius: 6px;
+    padding-bottom: 20px;
+}
+
+.DivTable2 .titletable {
+    padding: 10px;
+}
+
+.DivTable2 .titletable h4 {
+    font-weight: 300;
+    font-size: 24px;
+    margin: 0px;
+}
+
+.DivTable2 .titletable p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--forty-color);
+
+}
+.DivTable2 .content-table .table1 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.DivTable2 .content-table .table1 td  {
+    padding: 15px 8px; 
+}
+
+.DivTable2 .content-table .table1,
+.DivTable2 .content-table .table1 td {
+    border-collapse: collapse;
+    border: solid #CCC5B9;
+    border-width: 1px 0;
+    border-top: none; 
 }
 
 /* End Section Table List */
