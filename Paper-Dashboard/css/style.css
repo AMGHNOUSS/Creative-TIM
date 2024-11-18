@@ -411,14 +411,17 @@ ul {
     font-size: 1.825em;
     line-height: 1.4;
     margin-bottom: 0px;
+    margin-top: 15px;
 }
 
-.content-table p {
+.content-upgrade p {
     font-size: 14px;
     font-weight: 400;
     color: var(--forty-color);
     margin: 0;
     line-height: 1.4em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .content-upgrade table,
@@ -429,10 +432,12 @@ ul {
     border-top: none; 
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
 }
 
 .content-upgrade table {
     border: none;
+    min-width: 100%;
 }
 .content-upgrade table tbody tr:last-child td {
     border: none;
@@ -445,8 +450,16 @@ ul {
 .content-upgrade table td {
     font-size: 16px;
     font-weight: 300;
+    width: auto;
 }
 
+.content-upgrade table td .text-danger {
+    color: red;
+}
+
+.content-upgrade table td .text-success{
+    color: green;
+}
 
 .content-upgrade table td .current {
     color: #FFFFFF;
