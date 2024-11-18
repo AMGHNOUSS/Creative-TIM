@@ -385,3 +385,84 @@ ul {
     box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
 }
 /* End Content map*/
+
+/* Start Content Upgrade to Pro */
+
+.upgrade {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.content-upgrade {
+    background: white;
+    margin: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    min-height: calc(100% - 123px);
+    text-align: center;
+    display: inline-block; 
+    padding-bottom: 30px;
+}
+
+.content-upgrade h4 {
+    margin: 0;
+    color: #252422;
+    font-weight: 300;
+    font-size: 1.825em;
+    line-height: 1.4;
+    margin-bottom: 0px;
+}
+
+.content-table p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--forty-color);
+    margin: 0;
+    line-height: 1.4em;
+}
+
+.content-upgrade table,
+.content-upgrade table td {
+    border-collapse: collapse;
+    border: solid #CCC5B9;
+    border-width: 1px 0;
+    border-top: none; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-upgrade table {
+    border: none;
+}
+.content-upgrade table tbody tr:last-child td {
+    border: none;
+}
+
+.content-upgrade table td {
+    padding: 12px 15px 12px 12px;
+}
+
+.content-upgrade table td {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.content-upgrade table td .current {
+    color: #FFFFFF;
+    background-color: #66615B;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+.content-upgrade table td .upgrade {
+    color: #FFFFFF;
+    background-color: #68B3C8;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+
+.content-upgrade table td .upgrade:hover {
+    background-color: #337ab7;
+}
+/* End Content Upgrade to Pro */
