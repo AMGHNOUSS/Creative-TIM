@@ -479,3 +479,174 @@ ul {
     background-color: #337ab7;
 }
 /* End Content Upgrade to Pro */
+
+
+/* Start Typography */
+
+.typography-content {
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 6px;
+}
+
+.typography-content .title-typo h4 {
+    margin: 0;
+    color: #252422;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 18px;
+}
+
+.typography-content .title-typo p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin-bottom: 0px;
+    margin: 0px;
+    line-height: 21px;
+}
+
+.typography-content .title-typo p a {
+    color: #68B3C8;
+}
+
+.typography-content .typo {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.typography-content .typo .card-1 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-1 p{
+    padding-right: 140px;
+}
+
+.typography-content .typo .card-1 h1{
+    padding: 0px;
+}
+
+.typography-content .typo .card-2 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-2 p{
+    padding-right: 140px;
+}
+
+.typography-content .typo .card-2 h1{
+    padding: 0px;
+}
+
+.typography-content .typo .card-3 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-3 p{
+    padding-right: 140px;
+}
+
+.typography-content .typo .card-3 h1{
+    padding: 0px;
+}
+
+
+.typography-content .typo .card-4 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-4 p{
+    padding-right: 140px;
+}
+
+.typography-content .typo .card-4 h1{
+    padding: 0px;
+}
+
+
+.typography-content .typo .card-5 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-5 p{
+    padding-right: 140px;
+}
+
+.typography-content .typo .card-5 h1{
+    padding: 0px;
+}
+
+
+
+.typography-content .typo .card-6 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-6 p{
+    padding-right: 140px;
+}
+
+.typography-content .typo .card-6 h1{
+    padding: 0px;
+}
+
+
+
+.typography-content .typo .card-7 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-7 p:first-child{
+    padding-right: 140px;
+}
+
+
+.typography-content .typo .card-8 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-8 p:first-child{
+    padding-right: 140px;
+}
+
+
+
+.typography-content .typo .card-9 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-9 p{
+    padding-right: 140px;
+}
+
+.typography-content .typo .card-10 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-10 p{
+    padding-right: 140px;
+}
+
+.typography-content .typo .card-11 {
+    display: flex;
+    align-items: center;
+}
+
+.typography-content .typo .card-11 p{
+    padding-right: 140px;
+}
+
+
+/* End Typography */
