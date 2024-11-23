@@ -516,137 +516,55 @@ ul {
     padding-left: 10px;
 }
 
-.typography-content .typo .card-1 {
+.typography-content .typo .card {
     display: flex;
     align-items: center;
 }
 
-.typography-content .typo .card-1 p{
-    padding-right: 140px;
+.typography-content .typo .card .title p{
+    width: 150px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--forty-color);
 }
 
-.typography-content .typo .card-1 h1{
-    padding: 0px;
+.typography-content .typo .card .text p:nth-child(2){
+    color: #9A9A9A;
+    font-weight: 300;
+    line-height: 1.4em;
 }
 
-.typography-content .typo .card-2 {
-    display: flex;
-    align-items: center;
+.typography-content .typo .card .text .italic{
+    font-style: italic;
 }
 
-.typography-content .typo .card-2 p{
-    padding-right: 140px;
+.typography-content .typo .card .text .muted{
+    color: #DDDDDD;;
 }
 
-.typography-content .typo .card-2 h1{
-    padding: 0px;
+.typography-content .typo .card .title p,
+.typography-content .typo .card .text p{
+    font-size: 16px;
+    line-height: 1.4em;
 }
 
-.typography-content .typo .card-3 {
-    display: flex;
-    align-items: center;
+.typography-content .typo .card .text .clr-1{
+    color: #427C89;
 }
 
-.typography-content .typo .card-3 p{
-    padding-right: 140px;
+.typography-content .typo .card .text .clr-2{
+    color: #3091B2;
 }
 
-.typography-content .typo .card-3 h1{
-    padding: 0px;
+.typography-content .typo .card .text .clr-3{
+    color: #42A084;
 }
 
-
-.typography-content .typo .card-4 {
-    display: flex;
-    align-items: center;
+.typography-content .typo .card .text .clr-4{
+    color: #BB992F;
 }
 
-.typography-content .typo .card-4 p{
-    padding-right: 140px;
+.typography-content .typo .card .text .clr-5{
+    color: #B33C12;
 }
-
-.typography-content .typo .card-4 h1{
-    padding: 0px;
-}
-
-
-.typography-content .typo .card-5 {
-    display: flex;
-    align-items: center;
-}
-
-.typography-content .typo .card-5 p{
-    padding-right: 140px;
-}
-
-.typography-content .typo .card-5 h1{
-    padding: 0px;
-}
-
-
-
-.typography-content .typo .card-6 {
-    display: flex;
-    align-items: center;
-}
-
-.typography-content .typo .card-6 p{
-    padding-right: 140px;
-}
-
-.typography-content .typo .card-6 h1{
-    padding: 0px;
-}
-
-
-
-.typography-content .typo .card-7 {
-    display: flex;
-    align-items: center;
-}
-
-.typography-content .typo .card-7 p:first-child{
-    padding-right: 140px;
-}
-
-
-.typography-content .typo .card-8 {
-    display: flex;
-    align-items: center;
-}
-
-.typography-content .typo .card-8 p:first-child{
-    padding-right: 140px;
-}
-
-
-
-.typography-content .typo .card-9 {
-    display: flex;
-    align-items: center;
-}
-
-.typography-content .typo .card-9 p{
-    padding-right: 140px;
-}
-
-.typography-content .typo .card-10 {
-    display: flex;
-    align-items: center;
-}
-
-.typography-content .typo .card-10 p{
-    padding-right: 140px;
-}
-
-.typography-content .typo .card-11 {
-    display: flex;
-    align-items: center;
-}
-
-.typography-content .typo .card-11 p{
-    padding-right: 140px;
-}
-
-
 /* End Typography */
