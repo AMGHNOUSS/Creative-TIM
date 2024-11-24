@@ -568,3 +568,106 @@ ul {
     color: #B33C12;
 }
 /* End Typography */
+
+/* Start Notifications */
+.notifications-content {
+    background-color: white;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 6px;
+}
+
+
+.notifications-content .notifications {
+    display: flex;
+}
+
+.notifications-content .title-notif p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin-bottom: 0px;
+}
+
+.notifications-content .title-notif p a {
+    color: #3091B2;
+    text-decoration: none;
+}
+
+.notifications-content .notifications .box-1 {
+    padding: 20px;
+    width: 50%;
+}
+
+.notifications-content .notifications .box-1 p{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #7CE4FE;
+    color: #3091B2;
+}
+
+
+.notifications-content .notifications .box-2 {
+    padding: 20px;
+    width: 50%;
+}
+
+.notifications-content .notifications .box-2 .info{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #7CE4FE;
+    color: #3091B2;
+}
+
+.notifications-content .notifications .box-2 .success{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #8EF3C5;
+    color: #42A084;
+}
+
+.notifications-content .notifications .box-2 .warning{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #FFE28C;
+    color: #BB992F;
+}
+
+.notifications-content .notifications .box-2 .danger{
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #FF8F5E;
+    color: #B33C12;
+}
+
+.notifications-content .places .button .box-1 {
+    padding: 20px;
+}
+
+.notifications-content .places .button button {
+    padding: 9px 18px;
+    color: var(--forty-color);
+    border-color: #66615B;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 500;
+    width: 230px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.notifications-content .places .button button:hover {
+    background-color: #66615B;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.notifications-content .places .button .box-2 {
+    padding: 20px;
+}
+
+
+
+/* End Notifications */
